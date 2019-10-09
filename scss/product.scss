@@ -1,0 +1,226 @@
+.zaina{
+	padding: 30px 0 20px;font-size: 12px;color: #333333;margin-left: 90px;margin-bottom: 40px;
+	.menu_list{
+		float: left;font-size: 12px;color: #333333;font-weight: 600;margin-right: 50px;
+		li{
+			float: left;
+		}
+		 
+	}
+	.pinpai{ 
+		float: left;font-size: 12px;color: #333333;
+		li{
+			float: left;
+		}
+		span{
+			display: inline-block;float: left;
+		}
+		i{
+			margin-left: 10px;font-style: normal;font-size: 14px;float: left;cursor: pointer;
+		}
+	}
+}
+// 主要内容区
+.con_wrap{
+	width: 1190px;margin: 0 auto;overflow: hidden;position: relative;
+	.nav_lists{
+		width: 180px;font-size: 29px;color: black;float: left;position: relative; 
+		&>p{
+			color: #666666;font-size: 12px;margin-top: 45px;
+		}
+		&>ul{
+			font-size: 12px;color: #333333;margin-top: 25px;
+			.pinlei{
+				padding-top: 10px;cursor: pointer;position: relative;font-size: 12px;color: #333333;font-weight: 600;
+				&>span{
+					font-size: 10px;margin-right: 4px;	
+				}
+				.pinlei2{
+					position: relative;top: 6px;left: 36px;display: none;
+					&>li{
+						position: relative;font-size: 12px;font-weight: normal;color: #999999;line-height: 30px;
+						span{
+							font-size: 12px;
+						}
+						ul{
+							position: relative;left: 26px;display: none;
+							li{
+								line-height: 30px;
+								a{
+									color: #999999;
+								}
+							}
+						}
+					}
+				}
+			}
+			.xingbie{
+				padding-top: 10px;cursor: pointer;position: relative;font-size: 12px;color: #333333;font-weight: 600;
+				&>span{
+					font-size: 10px;margin-right: 4px;	
+				}
+				.nannv{
+					position: relative;top: 4px;left: 26px;color: #999999;display: none;
+					li{
+						line-height: 30px;
+						a{
+							color: #999999;
+						}
+					}
+				}
+			}
+			.jiage{
+				padding-top: 10px;cursor: pointer;position: relative;font-size: 12px;color: #333333;font-weight: 600;
+				&>span{
+					font-size: 10px;margin-right: 4px;	
+				}
+				.qian{
+					position: relative;top: 4px;left: 26px;color: #999999;display: none;
+					li{
+						line-height: 30px;
+						a{
+							color: #999999;
+						}
+					}
+				}
+			}
+			.chima{
+				padding-top: 10px;cursor: pointer;position: relative;font-size: 12px;color: #333333;font-weight: 600;
+				&>span{
+					font-size: 10px;margin-right: 4px;	
+				}
+				.chicun{
+					position: relative;top: 4px;left: 26px;color: #999999;display: none;
+					li{
+						line-height: 30px;
+						a{
+							color: #999999;
+						}
+					}
+				}
+			}
+			.yanse{
+				padding-top: 10px;cursor: pointer;position: relative;font-size: 12px;color: #333333;font-weight: 600;
+				&>span{
+					font-size: 10px;margin-right: 4px;	
+				}
+				.color{
+					position: relative;top: 4px;left: 26px;color: #999999;display: none;
+					li{
+						line-height: 30px;
+						a{
+							color: #999999;
+						}
+					}
+				}
+			}
+			.jijie{
+				padding-top: 10px;cursor: pointer;position: relative;font-size: 12px;color: #333333;font-weight: 600;
+				&>span{
+					font-size: 10px;margin-right: 4px;	
+				}
+				.jijie2{
+					position: relative;top: 4px;left: 26px;color: #999999;display: none;
+					li{
+						line-height: 30px;
+						a{
+							color: #999999;
+						}
+					}
+				}
+			}
+			.fengge{
+				padding-top: 10px;cursor: pointer;position: relative;font-size: 12px;color: #333333;font-weight: 600;
+				&>span{
+					font-size: 10px;margin-right: 4px;	
+				}
+				.fengge2{
+					position: relative;top: 4px;left: 26px;color: #999999;display: none;
+					li{
+						line-height: 30px;
+						a{
+							color: #999999;
+						}
+					}
+				}
+			}
+		}
+	}
+	.content_wrap{
+		float: right;width: 1010px;
+		.xiabushi_wrap{
+			width: 100%;text-align: center;font-size: 16px;color: #666666;
+			.brand{
+				height: 45px;line-height: 45px;
+				.brand_img{
+					width: 64px;height: 34px;margin-top: 7px;vertical-align: middle;float: right;
+				}
+				span{
+					float: right;font-size: 16px;color: #666666;
+				}
+			}
+			.banner_img{
+				text-align: left;margin-top: 10px;line-height: 1.8;padding: 0 10px 0 30px;
+				img{
+					width: 990.182px;height: 350px;
+				}
+			}
+			.wenzi{
+				font-size: 12px;color: #333333;text-align: left;margin-top: 10px;line-height: 1.8;padding: 0 10px 0 30px;
+			}
+		}
+		.xia_tab_wrap{
+			border-bottom: 1px solid #EEEEEE;overflow: hidden;height: 50px;line-height: 50px;width: 1010px;margin-top: 10px;
+			.xia_tab{
+				float: left;
+				li{
+					display: inline-block;font-size: 14px;padding: 0 30px;
+					a{
+						color: #333333;
+						&:hover{
+							font-weight: bold;color: #333333;text-decoration: underline;
+						}
+						
+					}
+					&:nth-of-type(1){
+						a{
+							font-weight: bold;color: #333333;text-decoration: underline;
+						}
+						
+					}
+					
+				}
+			}
+			.page_sum{
+				float: right;font-size: 12px;color: #999999;margin-right: 30px;
+			}
+		}
+		.product_wrap{
+			overflow: hidden;margin: 30px auto 0 auto;
+			dl{
+				display: inline-block;width: 230px;height: 400px;padding: 10px;background-color: white;color: #333333;text-align: center;position: relative;margin-right: 0;margin-top: 0;overflow: hidden;float: left;cursor: pointer;
+				dt{
+					padding: 33px 0;background-color: white;
+					img{
+						width: 230px;height: 230px;background-color: white;border: 0;
+					}
+				}
+				dd{
+					text-align: center;font-size: 12px;color: #333333;font-style: normal;margin: 0 auto;padding: 15px 10px 25px;
+					h3{
+						font-size: 12px;
+					}
+					p{
+						margin-top: 20px;
+						span{
+							font-weight: bold;font-size: 16px;color: #333333;
+						}
+						i{
+							font-size: 12px;color: #999999;font-style:normal;text-decoration: line-through;
+						}
+					}
+				}
+			}
+		}
+	}
+}

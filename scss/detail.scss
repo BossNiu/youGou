@@ -1,0 +1,170 @@
+.cur_loc{
+	width: 1190px;height: 60px;line-height: 60px;margin: 3px auto;font-size: 12px;color: #999999;
+	a{
+		color: #333333;
+	} 
+}
+.goods_wrap{ 
+	padding: 44px 0 60px;width: 1190px;margin: 0 auto;position: relative;
+	.lists{
+		float: left;
+		li{
+			width: 66px;height: 66px;border: solid 1px darkgray;margin-top: 8px;
+			img{
+				width: 66px;height: 66px;
+			}
+			&:hover{
+				border: solid 1px black;
+			}
+		}
+	}
+}
+.imgbox {
+	position:relative;float: left;margin-left: 20px;
+}
+.probox {
+	width:480px;
+	height:480px;
+
+}
+.probox img {
+	width:480px;
+	height:480px;
+	vertical-align:top;
+}
+.showbox {
+	display:none;
+	position:absolute;
+	left:503px;
+	top:0;
+	width:480px;
+	height:480px;
+	overflow:hidden;
+	border:1px solid #ccc;
+	background: white;
+}
+.showbox img {
+	position:absolute;
+	height:1200px;
+	width:1200px;
+}
+.hoverbox {
+	display:none;
+	position:absolute;
+	top:0;
+	background:#09f;
+	border:1px solid #09f;
+	height:75px;
+	width:100px;
+	cursor:move;
+	z-index:10;
+}
+.shop_container{
+	float: left;padding-left: 57px;color: #333333;width: 528px;
+	.good_logo{
+		width: 142px;height: 72px;line-height: 72px;border: 1px solid #f6f6f6;text-align: center;
+		img{
+			padding: 10px 0;vertical-align: middle;border: 0;
+		}
+	}
+	h1{
+		font-size: 16px;margin-top: 25px;font-weight: normal;
+	}
+	.good_price{
+		margin-top: 40px;text-align: left;
+		span{
+			font-size: 30px;font-weight: bold;color: #333333;
+		}
+		i{
+			font-size: 12px;color: #333333;text-decoration: line-through;font-style: normal;
+		}
+	}
+	.yanse{
+		margin-top: 50px;border-top: dotted 1px darkgray;
+		span{
+			font-size: 12px;color: #333333;display: inline-block;margin-top: 20px;
+		}
+		i{
+			display: inline-block;width: 40px;height: 40px;border: solid 1px darkgray;margin-top: 20px;margin-left: 10px;
+			img{
+				width: 40px;height: 40px;
+			}
+			&:hover{
+				border: solid 1px black;
+			}
+		}
+	}
+	.chima{
+		margin-top: 40px;
+		span{
+			font-size: 12px;color: #333333;
+		}
+		i{
+			display: inline-block;width:50px ;height:22px ;border: solid 1px darkgray;text-align: center;line-height: 22px;font-size: 12px;color: #999999;margin-left: 10px;font-style: normal;cursor: pointer;
+			&:hover{
+				border: solid 1px black;
+			}
+		}
+		strong{
+			font-size: 12px;color: #999999;margin-left: 60px;
+		}
+	}
+	.shuliang{
+		margin-top: 40px;
+		span{
+			font-size: 12px;color: #333333;float: left;vertical-align: middle;display: inline-block;
+		}
+		.num{
+			margin-left: 10px;width: 62px;height: 32px;text-align: left;border: solid 1px darkgray;font-size: 12px;color: #666666;float: left;vertical-align: middle;display: inline-block;
+		}
+		.btns{
+			margin-left: 4px;float: left;
+			a{
+				width: 18px;height: 14px;display: block;color: #666666;font-size: 12px;border: solid 1px gray;text-align: center;line-height: 14px;background: gainsboro;
+				span{
+					display: inline-block;margin-left: 4px;	
+				}
+				&:nth-of-type(2){
+					margin-top: 2px;
+				}
+				
+			}
+		}
+	}
+	.anniu{
+		margin-top: 40px;width: 528px;height: 48px;float: left;
+		a{
+			display: inline-block;width: 222px;height: 46px;margin-right: 20px;line-height: 46px;font-size: 20px;text-align: center;border: solid 1px #333333;color: #666666;
+			&:nth-of-type(1){
+				background: #333333;color: white;
+			}
+		}
+	}
+	h4{
+		margin-top: 40px;font-size: 12px;float: left;
+		a{
+			color: #333333;margin-right: 18px;
+			span{
+				margin-left: 6px;
+			}
+			&:nth-of-type(1){
+				color: darkgray;
+			}
+		}
+	}
+	.saoma{
+		float: left;margin-left: 300px;
+		dl{
+			dt{
+				img{
+					width: 120px;height: 120px;
+				}
+			}
+			dd{
+				font-size: 12px;color: gray;margin-top: 8px;text-align: center;
+			}
+		}
+	}
+	
+}
+
